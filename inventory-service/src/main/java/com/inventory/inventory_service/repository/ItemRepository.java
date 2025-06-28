@@ -6,7 +6,7 @@ import java.util.List;
 import com.inventory.inventory_service.model.Item;
 
 public class ItemRepository {
-    private List<Item> items = new ArrayList<>();
+    private final List<Item> items = new ArrayList<>();
 
     public List<Item> getAllItems() {
         return items;
